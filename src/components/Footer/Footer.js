@@ -55,14 +55,6 @@ const logoImage = require('../../images/logo.png');
                 <FooterLink to={'https://www.youtube.com/channel/UCQfyVpZb8N3j3UFxsPsQwBw'}> Youtube</FooterLink>
                 <FooterLink to={'https://www.udemy.com/course/how-to-make-virtual-tours/learn/'}> Udemy</FooterLink>               
               </FooterLinkItems>
-              <FooterLinkItems>
-                <FooterLinkTitle>Social Media</FooterLinkTitle>
-                <FooterLink to={'https://www.instagram.com/dbi360ar/'}> Instagram</FooterLink>
-                <FooterLink to={'https://www.facebook.com/DBI360VR'}> Facebook</FooterLink>
-                <FooterLink to={'https://www.youtube.com/channel/UCQfyVpZb8N3j3UFxsPsQwBw'}> Youtube</FooterLink>
-                <FooterLink to={'https://twitter.com/dbi360ar?s=08'}> Twitter</FooterLink>
-                <FooterLink to={'https://www.linkedin.com/company/67896357'}> LinkedIn</FooterLink>                
-              </FooterLinkItems>
             </FooterLinksWrapper>
           </FooterLinksContainer>
           <SocialMedia>
