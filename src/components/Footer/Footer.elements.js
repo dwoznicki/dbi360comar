@@ -1,9 +1,9 @@
-import styled from 'styled-components';
-import { FaMagento } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import styled from "styled-components";
+import { FaMagento } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.div`
-  background-color: #1A81AD;
+  background-color: #1a81ad;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -12,8 +12,8 @@ export const FooterContainer = styled.div`
 `;
 
 export const FooterSubHeading = styled.p`
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   margin-bottom: 24px;
   font-size: 24px;
 `;
@@ -87,7 +87,7 @@ export const FooterLinkTitle = styled.h2`
   margin-bottom: 16px;
 `;
 
-export const FooterLink = styled(Link)`
+const linkStyle = `
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;
@@ -95,6 +95,14 @@ export const FooterLink = styled(Link)`
     color: #0467fb;
     transition: 0.3s ease-out;
   }
+`;
+
+export const FooterLink = styled(Link)`
+  ${linkStyle}
+`;
+
+export const FooterLinkURL = styled.a`
+  ${linkStyle}
 `;
 
 export const SocialMedia = styled.section`
