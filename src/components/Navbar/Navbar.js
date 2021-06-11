@@ -50,7 +50,7 @@ const Navbar = () => {
           <NavbarContainer>
             <NavLogo to="/" onClick={closeMobileMenu}>
               <NavIcon src={logoImage.default} />
-              DBI360
+              <div style={{ margin: "auto auto auto 0" }}>DBI360</div>
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
