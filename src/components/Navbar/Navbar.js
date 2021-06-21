@@ -64,7 +64,7 @@ const Navbar = () => {
               </NavItem>
               <NavItem>
                 <NavLinksURL
-                  href={"https://360plugingenerator.netlify.app"}
+                  href={"https://heuristic-boyd-b8bc48.netlify.app/"}
                   target="blank"
                 >
                   360° Product View
