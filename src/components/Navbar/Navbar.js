@@ -63,6 +63,9 @@ const Navbar = () => {
                 <NavLinks to="/aboutus">About us</NavLinks>
               </NavItem>
               <NavItem>
+                <NavLinks to="/admin/products">Products</NavLinks>
+              </NavItem>
+              <NavItem>
                 <NavLinksURL
                   href={"https://heuristic-boyd-b8bc48.netlify.app/"}
                   target="blank"
